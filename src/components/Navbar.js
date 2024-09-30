@@ -9,7 +9,7 @@ function NavigationBar() {
       <Navbar.Brand className='mx-4'>
         <Link to="home" smooth={true} duration={300}>
           <img
-            src="/assets/logo.png"
+            src={process.env.PUBLIC_URL + '/assets/logo.png'}
             width="33" // Set logo width
             height="33" // Set logo height
             className="d-inline-block align-top"

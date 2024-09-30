@@ -13,7 +13,7 @@ function About() {
         </p>
         <Link to="contact" smooth={true} duration={300}><button id='aboutBtn' className='btn bg-white text-black'>Contact Me</button></Link>
       </div>
-      <img src="/assets/about.png" alt="profile" className="bg" />
+      <img src={process.env.PUBLIC_URL + '/assets/about.png'} alt="profile" className="bg" />
     </section>
   )
 }

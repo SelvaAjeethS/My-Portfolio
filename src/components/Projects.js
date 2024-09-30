@@ -10,7 +10,7 @@ function Projects() {
           <div className="col-md-6">
             <div className="project-card text-center p-4" style={{ borderColor: "white", borderWidth: "1px", borderStyle: "solid" }}>
               <img
-                src="/assets/boxofresin project.png"
+                src={process.env.PUBLIC_URL + '/assets/boxofresin project.png'}
                 alt="Box of Resin Project"
                 className="img-fluid mb-3 rounded"
               />
@@ -37,7 +37,7 @@ function Projects() {
           <div className="col-md-6">
             <div className="project-card text-center p-4" style={{ borderColor: "white", borderWidth: "1px", borderStyle: "solid" }}>
               <img
-                src="/assets/leonproject.png"
+                src={process.env.PUBLIC_URL + '/assets/leonproject.png'}
                 alt="Leon Project"
                 className="img-fluid mb-3 rounded"
               />
