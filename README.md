@@ -16,4 +16,4 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 - **React Icons**: For skill icons and social media links.
 
 ## How to View
-You can view the live version of my portfolio [here](https://your-username.github.io/your-repo-name).
+You can view the live version of my portfolio [here](https://selvaajeeths.github.io/My-Portfolio/).
